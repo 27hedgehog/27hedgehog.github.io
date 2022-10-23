@@ -458,7 +458,7 @@ body {
 }
 
 .intro {
-    padding-top: 257px;
+    padding-top: 200px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -475,7 +475,15 @@ body {
 .intro_right {
     max-width: 541px;
     margin-left: 130px;
-    margin-bottom: 271px;
+    margin-bottom: 200px;
+}
+
+.intro_test {
+    max-width: 500px;
+    max-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    background: white;
 }
 
 .intro_title {
@@ -492,9 +500,9 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
-    color: #727272;
+    color: #000000;
 }
 
 .intro_text_left {
@@ -505,20 +513,18 @@ body {
     font-size: 20px;
     line-height: 26px;
     color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
 
 .intro_img {
     width: 250px;
-    height: 388px;
+    height: 250px;
     margin-left: 60px;
     /**
     *margin-top: 102px;
     *margin-bottom: 101px;
     */
-}
-
-.intro_test{
-     background: white;
 }
 
 .about {
@@ -566,7 +572,29 @@ body {
 .projects {
     background: #34547A;
 }
-
+.projects_job {
+    width: 25%;
+    padding-right: 20px;
+    
+}
+.project_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+    color: #ffffff;
+    
+}
+.colortext {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+}
 .projects_wrapper {
     display: flex;
     justify-content: center;
@@ -575,6 +603,8 @@ body {
 .projects_block {
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .skills {
@@ -597,10 +627,17 @@ body {
 .skills_left {
     width: 445px;
     margin-right: 150px;
+    margin-bottom: 130px;
+}
+
+.skills_right {
+    width: 445px;
+    margin-top: 150px;
+    margin-bottom: 130px;
 }
 
 .skills_title {
-    margin-top: 200px;
+    margin-top: 63px;
     margin-bottom: 50px;
     font-family: Roboto;
     font-style: normal;
@@ -637,7 +674,7 @@ body {
 
 .skill_1::after {
     content: " ";
-    width: 330px;
+    width: 230px;
     height: 4px;
     background-color: #34547A;
     position: absolute;
@@ -661,7 +698,7 @@ body {
 
 .skill_2::after {
     content: " ";
-    width: 120px;
+    width: 320px;
     height: 4px;
     background-color: #34547A;
     position: absolute;
@@ -685,7 +722,79 @@ body {
 
 .skill_3::after {
     content: " ";
+    width: 340px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_4 {
+    position: relative;
+}
+
+.skill_4::before {
+    content: " ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_4::after {
+    content: " ";
+    width: 190px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_5 {
+    position: relative;
+}
+
+.skill_5::before {
+    content: " ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_5::after {
+    content: " ";
     width: 210px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_6 {
+    position: relative;
+}
+
+.skill_6::before {
+    content: " ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.skill_6::after {
+    content: " ";
+    width: 370px;
     height: 4px;
     background-color: #34547A;
     position: absolute;
@@ -833,7 +942,7 @@ body {
 }
 
 .lightzoom {
-    width: 25%;
+    width: 33%;
 }
 
 .intro_button {
@@ -963,6 +1072,42 @@ footer {
 }
 
 .project_img {
-    width: 141px;
+    width: 50px;
     height: 50px;
+}
+
+.education_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.education {
+    padding-top: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.education_left {
+    width: 357px;    
+}
+
+.education_right {
+    max-width: 560px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+}
+
+.education_img {
+    padding-top: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+.colortext_education {
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
 }
