@@ -23,6 +23,6 @@ close.onclick = function() {
 }
 
 download.onclick = function() {
-    download("resume_eng.pdf", "resume_eng.pdf", "pdf");
+    download("resume.pdf", "resume.pdf", "pdf");
 }
 
