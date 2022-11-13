@@ -37,7 +37,7 @@ close.onclick = function() {
 }
 
 download.onclick = function() {
-    download("resume.pdf", "resume.pdf", "pdf");
+    download("resume_ru.pdf", "resume_ru.pdf", "pdf");
 }
 
 eng.onclick = function() {
