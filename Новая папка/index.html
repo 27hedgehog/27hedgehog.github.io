@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/CSS" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap" rel="stylesheet">
+        <title>Resume</title>
+        <script src="jquery-3.5.1.min.js"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="wrapper">
+                <div class="header_wrapper">
+                    <div class="header_logo">
+                        <h1 id="headerLogo">Resume</h1>
+                    </div>
+        
+                    <div class="header_menu">
+                    
+                        <a href="#intro" class="menu_item">INTRO</a>
+                        <a href="#about" class="menu_item" >ABOUT</a>
+                        <a href="#project" class="menu_item">EXPERIENCE</a>
+                        <a href="#education" class="menu_item">EDUCATION</a>
+                        <a href="#skills" class="menu_item">SKILLS</a>
+                        <a href="#process" class="menu_item">CERTIFICATES</a>
+                        <a href="#send" class="menu_item">CONTACTS</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="intro" id="intro">
+                <div class="intro_left">
+                    <div class ="intro_image">
+                        <img src="intro_logo.jpeg" alt="INTRO" class="intro_img">
+                    </div>
+                    <p class="intro_text_left">
+                        I'm Luiza Asadullina
+                    </p>
+                    <div class ="intro_test">
+                        <p class="intro_text_left">
+                            Test Engineer
+                        </p>
+                    </div>
+                </div>
+
+                <div class="intro_right">
+                    <h1 id="myTitle" class="intro_title">
+                        Hello!
+                    </h1>
+                    <p class="intro_text">
+                        I'm 24. I live in Ufa, Russia 
+                    </p>
+                    <p class="intro_text">
+                        I testing software for 1 year
+                    </p>
+                    <button id="myButton" class="downloadButton intro_button">DOWNLOAD RESUME</button>
+                    
+                    <button id="myButton" class="russianButton intro_button">на русском</button>
+                    
+                    <!--<button id="myButton" class="russianButton intro_button">на русском</button>-->
+                   <!-- <div id="myModal" class="modal">
+                        <div id="myContent" class="modal_content">
+                            <div id="myClose" class="close">&times;</div>
+                            <div class="send_wrapper">
+                                <h1 class="modal_title">
+                                    Хотите веб-сайт?
+                                </h1>
+                                <form>
+                                    <div class="send_form">
+                                        <div>
+                                            <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                            <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                                        </div>
+                                        <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                        <button class="downloadButton modal_button">ОТПРАВИТЬ</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="wrapper">
+                    <div class="about_wrapper">
+                        <div class="about_block">
+                            <h2 class="about_title">About me</h2>
+
+                            <p class="about_text">
+                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.     
+                            </p>
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects" id="project">
+                <div class="wrapper">
+                    <div class="projects_wrapper">
+                        <div class="projects_block">                
+                            <div class="projects_job">
+                                <img src="third_job.png" alt="project" class="project_img">
+                                <p class="project_text">
+                                    <span class="colortext">Position:</span> Programming teacher<br>
+                                    <span class="colortext">Company:</span> KodKlass LLC<br>
+                                    <span class="colortext">Period of work:</span> April 2020 - May 2022 (2 years)<br>
+                                    <span class="colortext">Responsibilities:</span><br>
+                                    - teaching programming to children of the older age group (12-16 years old);<br>
+                                    - individual lessons and lessons in groups;<br>
+                                    - remote and face-to-face classes;<br>
+                                    - training in subjects:<br>
+                                    &#186; HTML/CSS/JavaScript<br>
+                                    &#186; blender;<br>
+                                    &#186; Unreal Engine (Blueprint);<br>
+                                    &#186; Unity (C#);<br>
+                                    &#186; Python (including OOP);<br>
+                                    &#186; creating Android applications in Java;<br>
+                                    &#186; Blogging (TikTok, Instagram, YouTube) + Python chatbots.    
+                                </p> 
+                            </div>
+                            <div class="projects_job">
+                                <img src="third_job.png" alt="project" class="project_img">
+                                <p class="project_text">
+                                    <span class="colortext">Position:</span> Order picker<br>
+                                    <span class="colortext">Company:</span> Instmart Service LLC (SberMarket)<br>
+                                    <span class="colortext">Period of work:</span> July 2021 - August 2021 (1 month)<br>
+                                    <span class="colortext">Responsibilities:</span><br>
+                                    - selection of goods in the store where the order is placed; <br>
+                                    - checking the quality of products; <br>
+                                    - viewing expiration dates on goods; <br>
+                                    - payment for the order at the checkout; <br>
+                                    - packaging of the order; <br>
+                                    - transfer of packaged goods together with a check. <br>
+                                    There is a health book.     
+                                </p> 
+                            </div>
+                            <div class="projects_job">
+                                <img src="third_job.png" alt="project" class="project_img">
+                                <p class="project_text">
+                                    <span class="colortext">Position:</span> Technical support consultant<br>
+                                    <span class="colortext">Company:</span> UKS SKB Kontur<br>
+                                    <span class="colortext">Period of work:</span> July 2021 - November 2021 (4 months)<br>
+                                    <span class="colortext">Responsibilities:</span><br>
+                                    - operational remote technical support for users; <br>
+                                    - reception and registration of applications for malfunctions, processing of information; <br>
+                                    - primary assistance in installing / configuring / troubleshooting and failures of equipment and software at the request of users, redirecting requests to other technical support lines;<br>
+                                    - Assistance in working with EDS.     
+                                </p> 
+                            </div>
+                            <div class="projects_job">
+                                <img src="third_job.png" alt="project" class="project_img">
+                                <p class="project_text">
+                                    <span class="colortext">Position:</span> Test Engineer<br>
+                                    <span class="colortext">Company:</span> Akber-Soft LLC<br>
+                                    <span class="colortext">Period of work:</span> November 2021 - present (1 year)<br>
+                                    <span class="colortext">Responsibilities:</span><br>
+                                    - detection of deviations and their classification with their entry into the bug tracker (mantis); <br>
+                                    - work in conjunction with the staff of the software development department and technical writers; <br>
+                                    - development of test cases; <br>
+                                    - making report; <br>
+                                    - analysis of the results obtained during the tests; <br>
+                                    - updating the accompanying documentation for the software product; <br>
+                                    - recording of work performed and hours spent in the Redmine accounting system; <br>
+                                    - deployment of a local copy of the project for testing (collection of networks for testing the system operation); <br>
+                                    - Performing load testing.                             
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="education" id="education">
+                <div class="wrapper">
+                    <div class="education_wrapper">
+      
+                        <div class="education_left">
+                            <img src="education.png" alt="education" class="education_img">
+                        </div>
+                        <div class="education_right">
+                            <h1 class="intro_title">EDUCATION</h1>
+                            <p class="intro_text">
+                                <span class="colortext_education"> Educational institution:</span> Ufa State Aviation Technical University <br>
+                                <span class="colortext_education">Faculty:</span> Informatics and Robotics<br>
+                                <span class="colortext_education">Specialty:</span> Information Security<br>
+                                <span class="colortext_education">End date:</span> 2021<br>
+                            </p>
+                        </div> 
+          
+                    </div>
+                </div>   
+            </section>
+
+            <section class="skills" id ="skills">
+                <div class="wrapper">
+                    <div class="skills_wrapper">
+                        <div class="skills_left">
+                            <h3 class="skills_title">My skills</h3>
+                            <h4 class="skill skill_1">Python</h3>
+                            <h4 class="skill skill_2">HTML/CSS/JS</h3>
+                            <h4 class="skill skill_3">Windows/Linux</h3>
+                        </div>
+                        <div class="skills_right">
+                           <!-- <img src="my_photo.svg" alt="MY_PHOTO" class="skills_img">-->
+                            <h4 class="skill skill_4">Selenium</h3>
+                            <h4 class="skill skill_5">GIT</h3>
+                            <h4 class="skill skill_6">Microsoft and Libre office</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--
+            <section class="process" id="process">
+                <div class="wrapper">
+                    <div class="process_wrapper">
+                        <div class="process_block">
+                            <h1 class="process_title">
+                                Как я работаю
+                            </h1>
+                            <p class="process_text">
+                                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                                Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                            </p>
+                        </div>
+
+                        <video src="verstka.mp4" class="process_video" controls="controls"></video>
+                    </div>
+                </div>
+            </section>
+-->
+            <section id="process">
+                <div class="gallery">
+                    <div class="gallery_str">
+                        <a href="is_intuit_certificate_eng.jpg" class="lightzoom">
+                            <img src="certificate1_eng.jpg" alt="img1" class="gallery_img">
+                        </a>
+                        <a href="testing_intuit_certificate_eng.jpg" class="lightzoom">
+                            <img src="certificate2_eng.jpg" alt="img2" class="gallery_img">
+                        </a>
+                        <a href="education1_kodclass_certificate.jpg" class="lightzoom">
+                            <img src="certificate3.jpg" alt="img3" class="gallery_img">
+                        </a>
+                    </div>
+                    <div class="gallery_str">
+                        <a href="education2_kodclass_certificate.jpg" class="lightzoom">
+                            <img src="certificate4.jpg" alt="img4" class="gallery_img">
+                        </a>
+                        <a href="selenium_stepik_certificate.jpg" class="lightzoom">
+                            <img src="certificate5.jpg" alt="img5" class="gallery_img">
+                        </a>
+                        <a href="python_stepik_certificate.jpg" class="lightzoom">
+                            <img src="certificate6.jpg" alt="img6" class="gallery_img">
+                        </a>
+                    </div>
+                </div>
+            </section>
+<!--
+            <section class="send" id="send">
+                <div class="wrapper">
+                    <div class="send_wrapper">
+                        <h1 class="send_title">
+                            Хотите веб-сайт?
+                        </h1>
+                        <p class="send_text">
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+                        <form>
+                            <div class="send_form">
+                                <div>
+                                    <input type="text" class="form1 formstyle" placeholder="Ваше имя">
+                                    <input type="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                                </div>
+                                <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+                                <button class="send_button">ОТПРАВИТЬ</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        -->
+        </main>
+
+        <footer>
+            <div class="wrapper" id="send">
+                <div class="footer_wrapper">
+                    <div class="left_footer">
+                        <h3 class="footer_title">Asadullina Luiza</h3>
+                        <p class="footer_text">&copy; 2022. All rights reserved</p>
+                    </div>
+                    <div class="right_footer">
+                        <a href="https://www.linkedin.com/in/luiza-asadullina-ab707a203/"><img src="linkedin.png" alt="linkedin" class="footer_img"></a>
+                        <a href="https://github.com/27hedgehog"><img src="github.png" alt="github" class="footer_img"></a>
+                        <!--
+                            <img src="vk-logo.png" alt="vk" class="footer_img">
+                        <img src="vk-logo.png" alt="vk" class="footer_img">
+                        <img src="vk-logo.png" alt="vk" class="footer_img">
+                        -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <link rel="stylesheet" href="lightzoom/style.css">
+        <script src="lightzoom/lightzoom.js"></script>
+
+        <script>jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing: true});</script>
+     
+        <script src="myscript.js"></script>
+        <script>jQuery('.downloadButton').on('click', function(){
+            var link = document.createElement('a');
+            link.setAttribute('href', '/resume.pdf');
+            link.setAttribute('download', 'resume.pdf');
+            link.click();
+            return false;
+        });</script>
+    </body>
+    
+</html>
+
+
