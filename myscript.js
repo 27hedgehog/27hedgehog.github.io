@@ -46,4 +46,4 @@ eng.onclick = function() {
 
 
 
-document.ru.addEventListener('click', () => window.open('https://27hedgehog.github.io/index_ru.html'));
+document.ru.addEventListener('click', () => window.open('https://27hedgehog.github.io/ru/index_ru.html'));
