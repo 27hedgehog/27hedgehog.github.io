@@ -6,6 +6,18 @@ var download = document.getElementById('downloadButton');
 var eng = document.getElementById('englishButton');
 var ru = document.getElementById('russianButton');
 
+
+
+var lang;
+if (typeof navigator.userLanguage != 'undefined')
+{lang =navigator.userLanguage.toUpperCase }
+else
+if (typeof navigator.language != 'undefined')
+{lang =navigator.language.toUpperCase }
+
+if (lang=='ru') {location.href="/ru/index.html"} else {location.href="index.html"}
+
+
 function opacity() {
     content.style.opacity = 1;
 }
