@@ -58,10 +58,11 @@
                     <p class="intro_text">
                         I testing software for 1 year
                     </p>
-                    <button id="myButton" class="downloadButton intro_button">DOWNLOAD RESUME</button>
-                    
+                    <div class="intro_buttons">
+                        <button id="myButton" class="downloadButton intro_button">DOWNLOAD RESUME</button>
                         <button id="myButton" class="russianButton intro_button" onclick="document.location='https://27hedgehog.github.io/ru/index.html'">на русском</button>
-                    
+                        <button id="myButton" class="russianButton intro_button" onclick="document.location='https://27hedgehog.github.io/su/index.html'">Suomeksi 🇫🇮</button>
+                    </div>
                     <!--<button id="myButton" class="russianButton intro_button">на русском</button>-->
                    <!-- <div id="myModal" class="modal">
                         <div id="myContent" class="modal_content">
@@ -316,8 +317,8 @@
         <script src="myscript.js"></script>
         <script>jQuery('.downloadButton').on('click', function(){
             var link = document.createElement('a');
-            link.setAttribute('href', '/resume.pdf');
-            link.setAttribute('download', 'resume.pdf');
+            link.setAttribute('href', '/cv_english.pdf');
+            link.setAttribute('download', 'cv_english.pdf');
             link.click();
             return false;
         });</script>

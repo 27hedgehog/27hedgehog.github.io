@@ -965,6 +965,7 @@ body {
     margin-right: 30px;
     transition: 500ms;
 }
+
 .intro_button:hover {
     border-radius: 50px;
 }

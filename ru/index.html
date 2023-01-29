@@ -58,9 +58,12 @@
                     <p class="intro_text">
                         Я тестирую ПО уже 1 год
                     </p>
+                    <div class="intro_buttons">
                     <button id="myButton" class="downloadButton intro_button" download="rusume_ru.pdf">СКАЧАТЬ РЕЗЮМЕ</button>
-                    <button id="myButton" class="englishButton intro_button" onclick="document.location='https://27hedgehog.github.io'">in english</button>
-                   <!-- <div id="myModal" class="modal">
+                    <button id="myButton" class="englishButton intro_button" onclick="document.location='https://27hedgehog.github.io'">in English 🇬🇧</button>
+                    <button id="myButton" class="russianButton intro_button" onclick="document.location='https://27hedgehog.github.io/su/index.html'">Suomeksi 🇫🇮</button>
+                </div>
+                    <!-- <div id="myModal" class="modal">
                         <div id="myContent" class="modal_content">
                             <div id="myClose" class="close">&times;</div>
                             <div class="send_wrapper">
@@ -315,7 +318,7 @@
         <script src="myscript.js"></script>
         <script>jQuery('.downloadButton').on('click', function(){
             var link = document.createElement('a');
-            link.setAttribute('href', '/resume.pdf');
+            link.setAttribute('href', '/cv_rus.pdf');
             link.setAttribute('download', 'resume.pdf');
             link.click();
             return false;
